@@ -1,0 +1,90 @@
+
+/*Styles*/
+:root{
+    --color-titulos: ;
+    --color-textos: ;
+    --degradado-galactico: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(121,9,105,1) 53%, rgba(0,71,150,0.8267682072829132) 100%);
+    --morado_clarito: #5f496e;
+    --morado_oscuro: #08000d9d;
+
+}
+/*Config*/
+html{
+    scroll-behavior: smooth;
+}
+
+section[id]{
+    scroll-margin-top: 62px;
+}
+
+
+.background-video{
+    display: flex;
+    position: fixed;
+    z-index: -1;
+}
+
+/* ATRIBUTOS EXTRA */
+
+.error{
+    border: 2px solid red;
+    
+}
+
+.correcto{
+    border: 2px solid green;
+
+
+}
+
+
+.mensaje-error-input{
+    color: rgb(238, 79, 79);
+    font-weight: bold;
+    margin-left: 1rem;
+    transition: 500ms;
+}
+
+.invisible{
+    display: none;
+}
+
+.selecionado{
+    border-bottom: 2px solid rgb(255, 0, 204);
+}
+
+
+
+/*Animacion*/
+
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+@keyframes parpadeo {
+    0%{
+        box-shadow: 2px 2px 20px 10px #ff7afd;
+
+    }
+
+    25%{
+        box-shadow: 2px 2px 20px 10px #ff8efd;
+
+    }
+
+    50%{
+        box-shadow: 2px 2px 20px 10px #ffb1fe;
+
+    }
+
+    75%{
+        box-shadow: 2px 2px 20px 10px #ffd4fe;
+
+    }
+
+    100%{
+        box-shadow: 2px 2px 20px 10px #ffffff;
+
+    }
+}

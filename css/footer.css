@@ -1,0 +1,32 @@
+.footer-container{
+    background-color: rgba(0, 0, 0, 0.878);
+    border-top: 2px solid #ff00fb;
+    display: flex;
+    height: 100%;
+    justify-content: center;
+}
+
+.footer-box{
+    margin: 2rem;
+}
+
+.footer-img{
+    margin: 1.5rem;
+    transition: 500ms;
+}
+
+
+
+.footer-img:hover{
+    transform: scale(1.2);
+}
+
+.footer-derechos{
+    color: white;
+    text-align: center;
+}
+
+
+
+
+

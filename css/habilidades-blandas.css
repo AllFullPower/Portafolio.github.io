@@ -1,0 +1,74 @@
+.habilidades-container{
+    align-items: center;
+    background-color: var(--morado_oscuro);
+    justify-content: center;
+    padding-bottom: 2rem;
+    padding-top: 2rem;
+    width: 100%;
+}
+
+.skills-container, .hobbies-container{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+
+.skills-titulo, .hobbies-titulo{
+    color: aliceblue;
+    font-size: 3rem;
+    text-align: center;
+}
+
+
+.skills-card-list, .hobbies-card-list{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.skills-card-item, .hobbies-card-item{
+    align-items: center;
+    border: 2px solid #ffffff;
+    border-bottom-right-radius: 25px;
+    box-shadow: 5px 10px 2px #af72ff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 200px;
+    margin: 2rem;
+    transition: 500ms;
+    width: 200px;
+}
+
+.skills-card-item:hover, .hobbies-card-item:hover{
+  background-color: rgba(240, 248, 255, 0.372);
+  transform: scale(1.2);
+  
+}
+
+
+.skills-card-imagen{
+    height: 100px;
+    margin: 1.2rem;
+    width: 100px;
+}
+
+.skills-card-titulo{
+    color: #ffffff;
+    font-weight: bold;
+    text-shadow: 2px 2px 20px rgb(105, 1, 105);
+}
+
+.hobbies-imagen{
+    height: 40%;
+    margin-bottom: 1.2rem;
+    width: 40%;
+}
+
+.hobbies-actividad-titulo{
+    font-size: 1.2rem;
+}
+
+

@@ -70,3 +70,50 @@
     font-weight: bold;
     text-shadow: 2px 2px 20px rgb(105, 1, 105);
 }
+
+.info-inicial-contacto-container{
+    display: flex;
+    flex-direction: row;
+}
+
+.info-inicial-contacto-link{
+    margin-right: 1rem;
+    margin-top: 2rem;
+    transition: 500ms;
+}
+
+.info-inicial-contacto-link:hover{
+    transform: scale(1.2);
+}
+
+
+
+/* Responsive */ 
+
+@media screen and (max-width:768px) {
+    .info-inicial-container, .info-inicial-box{
+        width: 100%;
+    }
+
+    .info-inical-text{
+        font-size: 16px;
+        line-height: 1rem;
+    }
+
+    .info-inicial-titulo,.info-inicial-nombre{
+        font-size: 20px;
+        line-height: 1.2rem;
+
+    }
+
+    .info-inicial-imagen{
+        width: 120px;
+        height: 120px;
+    }
+
+    .info-inicial-contacto-img{
+        width: 3.2rem;
+        height: 3.2rem;
+    }
+    
+}

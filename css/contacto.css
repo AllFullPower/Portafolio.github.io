@@ -105,3 +105,26 @@ textarea{
     cursor: pointer;
     transform: scale(1.1);
 }
+
+
+@media screen and (max-width:768px) {
+
+
+    .form-container{
+
+        display: flex;
+        flex-direction: column;
+    }
+
+    .contacto-container{
+        width: 100%;
+    }
+
+    .form-box{
+        width: 100%;
+        height: 80%;
+        margin-bottom: 2rem;
+    }
+
+ 
+}

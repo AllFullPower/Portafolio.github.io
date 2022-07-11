@@ -3,7 +3,7 @@
     border-radius: 5px;
     box-shadow: 2px 1px 20px 10px rgba(255,255,255,1);
     display: flex;
-    height: calc(40vh);
+    height: 100%;
     justify-content: center;
     text-align: center;
     
@@ -28,4 +28,22 @@
     font-size: 1.5rem;
     line-height: 2rem;
     
+}
+
+
+
+@media screen and (max-width:768px) {
+    .sobre-mi-container{
+        width: auto;
+    }
+
+    .sobre-mi-texto{
+        font-size: 16px;
+        color: rgb(181, 181, 181);
+    }
+
+    .sobre-mi-titulo{
+        font-size: 20px;
+        color: aliceblue;
+    }
 }

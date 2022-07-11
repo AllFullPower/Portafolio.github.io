@@ -32,7 +32,7 @@
 
 .header-nav-link{
     color: rgb(255, 255, 255);
-    font-size: 1.2rem;
+    font-size: 1.5rem;
     text-decoration: none;
 }
 
@@ -41,4 +41,20 @@
     text-shadow: 4px 4px 16px rgb(255, 14, 255);   
 }
 
+
+/* Responsive */
+
+@media screen and (max-width:768px) {
+    .header-container{
+        width: 100vw;
+        justify-content: center;
+       
+        
+    }
+
+    .header-nav-link{
+        font-size: 10px;
+    }
+
+}
 

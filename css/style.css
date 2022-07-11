@@ -19,9 +19,10 @@ section[id]{
 
 
 .background-video{
-    display: flex;
     position: fixed;
     z-index: -1;
+    height: 5000px;
+
 }
 
 /* ATRIBUTOS EXTRA */
@@ -88,3 +89,12 @@ body{
 
     }
 }
+
+@media screen and (max-width:768px) {
+    .background-video{
+        height: 10000px;
+      
+    }
+}
+
+

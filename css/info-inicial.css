@@ -4,7 +4,7 @@
     grid-template-areas: "Informacion", "Imagen";
     grid-template-columns: 50% 50%;
     grid-template-rows: 100%;
-    height: calc(70vh - 60px);
+    height: calc(80vh - 1px);
 }
 
 .info-inicial-box{
@@ -48,7 +48,7 @@
 
 .info-inicial-imagen{
     animation:parpadeo 1s ease-in infinite alternate-reverse;
-    background-image: url(/assets/imagenes/AllFullPower.jfif);
+    background-image: url(../assets/imagenes/AllFullPower.jfif);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;

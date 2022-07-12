@@ -19,9 +19,9 @@ textArea.addEventListener('blur', (textArea) =>{
     validarTextArea(textArea.target)
 })
 
-/* INICIALIZADOR ANIMACIONES*/
 
-AOS.init();
+
+
 
 /*DETECTOR DE SECCIONES*/
 
